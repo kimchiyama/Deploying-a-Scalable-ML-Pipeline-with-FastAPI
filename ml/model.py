@@ -3,7 +3,7 @@ from sklearn.metrics import fbeta_score, precision_score, recall_score
 from ml.data import process_data
 
 import pandas as pd
-from sklearn.ensamble import RandomForestClassifier
+from sklearn.ensemble import RandomForestClassifier
 import numpy as np
 
 # Optional: implement hyperparameter tuning.
